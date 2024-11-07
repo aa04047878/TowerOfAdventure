@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102637a456c684249bf733c32ed59b49, type: 3}
+  m_Name: CardInfo
+  m_EditorClassIdentifier: 
+  cardData:
+  - CharacterName: "\u827E\u8389\u7D72"
+    Attr: {fileID: 21300000, guid: c08aeac22e547b444b338065d79db039, type: 3}
+    Space: 5
+    Character: {fileID: 21300000, guid: a28ee84c11b68ee4f9ecff3550c5944e, type: 3}
+    CharacterLevel: 1
+    HP: 150
+    Recover: 150
+    ATK: 200
+    Race: "\u4EBA\u985E"
+    ActiveCD: 6
+    ActiveLV: 1
+    Active: "\u6D88\u9664\u76F8\u540C\u5C6C\u6027\u7B26\u77F3\uFF0C\u9020\u6210\u7684\u50B7\u5BB3\u6703\u8B8A\u62102\u500D"
+    Leader: "\u4EBA\u985E\u653B\u64CA\u529B1.5\u500D"
+    CharacterAvatar: {fileID: 21300000, guid: 97a76bd7adaa2d644b7cbd589173e61d, type: 3}
+    playerCharacter: 1
+    elementType: 5
+  - CharacterName: "\u7F85\u683C\u8389\u7279"
+    Attr: {fileID: 21300000, guid: 025e8127e0d029042868bfed1de192a1, type: 3}
+    Space: 5
+    Character: {fileID: 21300000, guid: 695eff7a650cda540ac2fdb71bb0f143, type: 3}
+    CharacterLevel: 1
+    HP: 170
+    Recover: 140
+    ATK: 190
+    Race: "\u4EBA\u985E"
+    ActiveCD: 6
+    ActiveLV: 1
+    Active: "\u6D88\u9664\u76F8\u540C\u5C6C\u6027\u7B26\u77F3\uFF0C\u9020\u6210\u7684\u50B7\u5BB3\u6703\u8B8A\u62102\u500D"
+    Leader: "\u4EBA\u985E\u653B\u64CA\u529B1.5\u500D"
+    CharacterAvatar: {fileID: 21300000, guid: 40dcc881e73e76f4ebd2f0bbdc6c8877, type: 3}
+    playerCharacter: 2
+    elementType: 2
+  - CharacterName: "\u53EF\u8389"
+    Attr: {fileID: 21300000, guid: 8f54237624d10b545b2ed43556235d21, type: 3}
+    Space: 5
+    Character: {fileID: 21300000, guid: 71a6954f436af6f4a99e1c5d1633daf6, type: 3}
+    CharacterLevel: 1
+    HP: 160
+    Recover: 200
+    ATK: 110
+    Race: "\u4EBA\u985E"
+    ActiveCD: 7
+    ActiveLV: 1
+    Active: "\u6D88\u9664\u76F8\u540C\u5C6C\u6027\u7B26\u77F3\uFF0C\u9020\u6210\u7684\u50B7\u5BB3\u6703\u8B8A\u62102\u500D"
+    Leader: "\u4EBA\u985E\u653B\u64CA\u529B1.5\u500D"
+    CharacterAvatar: {fileID: 21300000, guid: 3377629ae3a8ef24e8f6b453997abd6e, type: 3}
+    playerCharacter: 3
+    elementType: 3
+  - CharacterName: "\u5B64\u7368\u96EA"
+    Attr: {fileID: 21300000, guid: 83e5ed1f7bca4a74c9065ceadd85425b, type: 3}
+    Space: 5
+    Character: {fileID: 21300000, guid: f53f7781a3f1778439d9e919456e4a5f, type: 3}
+    CharacterLevel: 1
+    HP: 200
+    Recover: 130
+    ATK: 220
+    Race: "\u4EBA\u985E"
+    ActiveCD: 7
+    ActiveLV: 1
+    Active: "\u6D88\u9664\u76F8\u540C\u5C6C\u6027\u7B26\u77F3\uFF0C\u9020\u6210\u7684\u50B7\u5BB3\u6703\u8B8A\u62102\u500D"
+    Leader: "\u4EBA\u985E\u653B\u64CA\u529B1.5\u500D"
+    CharacterAvatar: {fileID: 21300000, guid: 08e4030366d47bc4ab280ba6a7f0eeca, type: 3}
+    playerCharacter: 4
+    elementType: 1
+  - CharacterName: "\u60A0\u5A1C"
+    Attr: {fileID: 21300000, guid: 6be4b938fa8ba2a47ad18debe50b61ec, type: 3}
+    Space: 5
+    Character: {fileID: 21300000, guid: b13da3d9a8eda8545be6db385903a1de, type: 3}
+    CharacterLevel: 1
+    HP: 190
+    Recover: 160
+    ATK: 180
+    Race: "\u4EBA\u985E"
+    ActiveCD: 6
+    ActiveLV: 1
+    Active: "\u6D88\u9664\u76F8\u540C\u5C6C\u6027\u7B26\u77F3\uFF0C\u9020\u6210\u7684\u50B7\u5BB3\u6703\u8B8A\u62102\u500D"
+    Leader: "\u4EBA\u985E\u653B\u64CA\u529B1.5\u500D"
+    CharacterAvatar: {fileID: 21300000, guid: ade793a97c7bceb4398fc4a3006ba41a, type: 3}
+    playerCharacter: 5
+    elementType: 4
