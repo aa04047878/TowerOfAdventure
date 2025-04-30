@@ -103,6 +103,14 @@ public class TowerOfAdventureGame
         return m_BackpackInfoUI.GetCardInfo();
     }
 
+    public BackpackInfoUI GetBackageInfo()
+    {
+        if (m_BackpackInfoUI == null)
+            m_BackpackInfoUI = new BackpackInfoUI(this);
+        return m_BackpackInfoUI;
+    }
+
+
     /// <summary>
     /// 取得隊伍資訊紅隊成員代表抽到第幾張卡
     /// </summary>

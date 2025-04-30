@@ -74,10 +74,10 @@ public class BackpackInfoUI : IUserInterface
     public override void Update()
     {
         DetectItemContentClose();
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            DeleteBackpackArchive();
-        }
+        //if (Input.GetKeyDown(KeyCode.D))
+        //{
+        //    DeleteBackpackArchive();
+        //}
 
         //if (Input.GetKeyDown(KeyCode.L))
         //{
@@ -316,7 +316,7 @@ public class BackpackInfoUI : IUserInterface
     /// <summary>
     /// 刪除背包存檔
     /// </summary>
-    private void DeleteBackpackArchive()
+    public void DeleteBackpackArchive()
     {
         if (PlayerPrefs.HasKey("背包資料"))
         {
