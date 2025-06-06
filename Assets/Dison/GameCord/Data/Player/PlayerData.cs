@@ -16,7 +16,7 @@ public class PlayerData
         Lv = 1;
         nowEXP = 0;
         totalEXP = 500;
-        playerName = "神魔之塔";
+        playerName = "Player01";
     }
 
 

@@ -41,8 +41,9 @@ public class ShowPlayerData : MonoBehaviour
         }
         else
         {
-            txt_playerName.text = "神抄之塔";
+            txt_playerName.text = "Player01";
             Lv = 1;
+            txt_Lv.text = Lv.ToString();
             nowEXP = 0;
             totalEXP = 500;
             img_EXPBar.transform.localPosition = new Vector3(-275 + 275 * (nowEXP / totalEXP), 0, 0);

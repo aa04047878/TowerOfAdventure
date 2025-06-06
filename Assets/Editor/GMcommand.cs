@@ -7,11 +7,8 @@ public class GMcommand
 {
     [MenuItem("GMCommand/刪除背包資料")]
     public static void DeletePackageData()
-    {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            BackpackInfoUI backpackInfoUI = TowerOfAdventureGame.Inst.GetBackageInfo();
-            backpackInfoUI.DeleteBackpackArchive();
-        }
+    {      
+        BackpackInfoUI backpackInfoUI = TowerOfAdventureGame.Inst.GetBackageInfo();
+        backpackInfoUI.DeleteBackpackArchive();
     }
 }
